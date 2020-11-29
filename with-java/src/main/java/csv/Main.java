@@ -21,6 +21,7 @@ public class Main {
 
         List<String> list2 = list.stream()
                             .map(name -> name.getName().toLowerCase())
+                            .sorted()
                             .collect(Collectors.toList());
 
         list2.stream()

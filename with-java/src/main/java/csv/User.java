@@ -16,6 +16,10 @@ public class User {
         this.grade = grade;
     }
 
+    public User(){
+    }
+
+
     public String getName() {
         return name;
     }
